@@ -5,8 +5,10 @@ def main():
     # variables...
     do_stuff()
 
+
 def do_stuff():
     # statements...
+    return
 
 
 main()
