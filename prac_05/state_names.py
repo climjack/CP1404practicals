@@ -13,6 +13,10 @@ state_code = input("Enter short state: ").upper()
 while state_code != "":
     if state_code in CODE_TO_NAME:
         print(state_code, "is", CODE_TO_NAME[state_code])
+    elif state_code == "BREAK":
+        break
     else:
         print("Invalid short state")
     state_code = input("Enter short state: ").upper()
+for x in CODE_TO_NAME:
+    print(f"{x:3} is {CODE_TO_NAME[x]}")
